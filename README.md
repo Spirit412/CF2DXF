@@ -1,18 +1,17 @@
 # CF2DXF
 CF2 to DXF CAD file converter
 
-This is a conversion program that translates the CF2 packaging Common File Format into a standard DXF CAD format.
+Программа преобразования, которая переводит формат файла CF2 packaging Common в стандартный формат CAD DXF.
 
-The files were created as a NetBeans Java project, a compiled JAR file is provided along with the code. The JAR file should run just by double clicking on it in most interfaces. To run from the command line use: java -jar "cf2dxf.jar" 
+Файлы были созданы как Java-проект NetBeans, вместе с кодом предоставляется скомпилированный файл JAR. Файл JAR должен запускаться простым двойным щелчком по нему в большинстве интерфейсов. Для запуска из командной строки используйте: java -jar "cf2dxf.jar" 
 
-CF2 is typically a file format that is requested by forme makers, many packaging professionals find themselves having to deal with files in the CF2 format. It has been enough of a problem for me over the years that I finally wrote this translation program.
+CF2 - это обычно формат файла, который запрашивается производителями форм, многим специалистам по упаковке приходится иметь дело с файлами в формате CF2. За эти годы это стало для меня достаточной проблемой, чтобы я, наконец, написал эту программу перевода.
 
-The program doesn't cover every aspect of the format, but most files should translate pretty well and even those that contain less usual features should end up giving you some idea of what is in the file. 
+Программа не охватывает все аспекты формата, но большинство файлов должны переводиться довольно хорошо, и даже те, которые содержат менее обычные функции, в конечном итоге должны дать вам некоторое представление о том, что находится в файле. 
 
-The main parts of the file format not currently dealt with are inserted blocks and scaling. Aspects that the file format was supposedly developed to contain, but in my experience are usually ignored, like knife & crease pointage and bridging are also not dealt with, but from a general design point of view those are rarely relevant. 
+Основными частями формата файла, которые в настоящее время не рассматриваются, являются вставленные блоки и масштабирование. Аспекты, для которых предположительно был разработан формат файла, но, по моему опыту, обычно игнорируются, например, острие ножа и сгиба и перемычка также не рассматриваются, но с общей точки зрения дизайна они редко имеют значение. 
 
-If someone would care to add any additional improvements to the code it will be appreciated, perhaps I'll get around to improving it some more at some point.
+Если кто-то захочет внести какие-либо дополнительные улучшения в код, это будет оценено по достоинству, возможно, в какой-то момент я еще немного улучшу его.
 
-The usual caveat applies; no warrantee is either given or implied with this software, use it at your own risk.
+Применяется обычное предостережение; никаких гарантий на это программное обеспечение не дается и не подразумевается, используйте его на свой страх и риск.
 
-TG 23/11/2019
